@@ -1,0 +1,95 @@
+.domain-info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    /* width: 800px; */
+  }
+
+  .info-section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+
+  
+  .info-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start; /* Align items to the start (left) */
+  }
+  
+  .info-item strong {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .info-item span {
+    color: #555; /* Optionally adjust color */
+  }
+  
+
+/*   
+  .info-section {
+    flex: 1;
+    min-width: 350px;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+  }
+  
+  
+  .info-item {
+    margin-bottom: 10px;
+  }
+  
+  .info-item strong {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .info-item span {
+    color: #555; 
+  }
+   */
+  
+  .domain-info {
+    background-color: #deffe0;
+  }
+  
+  .subdomains {
+    background-color: #e0f0ff;
+  }
+  
+  .external-domains {
+    background-color: #ffe0e0;
+  }
+  
+  .info-item {
+    margin-bottom: 10px;
+  }
+  
+  .subdomain-item, .external-domain-item {
+    margin-bottom: 5px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .info-section {
+      margin: 10px 0;
+    }
+  }
+  

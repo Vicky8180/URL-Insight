@@ -1,0 +1,30 @@
+.socket-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .status-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .connection-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .connection-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
